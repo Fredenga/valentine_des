@@ -4,7 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/styles.css" rel="stylesheet" />
+    <link href="/src/main.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="bg-white px-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo / Site Name -->
+        <div class="text-red-900 text-2xl font-bold flex items-center">
+          <img
+            src="/assets/Cupid.svg.jpg"
+            class="w-15 mx-auto my-4 mr-3 rounded-full shadow-lg"
+            alt="logo"
+          />
+          <span>Be My Valentine</span>
+        </div>
+
+        <!-- Desktop Links -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="text-red-900 text-2xl hover:text-gray-200"
+            >TEMPLATES</a
+          >
+          <a href="#about" class="text-red-900 text-2xl hover:text-gray-200"
+            >HOW IT WORKS</a
+          >
+          <a href="#contact" class="text-red-900 text-2xl hover:text-gray-200"
+            >WHY US</a
+          >
+          <a href="#contact" class="text-red-900 text-2xl hover:text-gray-200"
+            >PRICING</a
+          >
+          <a href="#contact" class="text-red-900 text-2xl hover:text-gray-200"
+            >CONTACT US</a
+          >
+        </div>
+
+       
+
+      <!-- Mobile Links -->
+      <div id="mobile-menu" class="md:hidden hidden bg-blue-600 text-white p-4">
+        <a href="#" class="block py-2 px-4">Home</a>
+        <a href="#about" class="block py-2 px-4">About</a>
+        <a href="#contact" class="block py-2 px-4">Contact</a>
+      </div>
+    </nav>
+    <div class="bg-image flex flex-col text-white justify-center">  
+      <div class="px-12">
+        <h1 class="text-4xl font-bold mb-6">Make your Valentine's Day</h1>
+        <h1 class="text-4xl font-bold mb-6">proposal a digital Masterpiece</h1>
+        <p class="text-lg mb-8">For only KSH 1500 | $9 USD, craft a custom website that speaks the language of love.</p>
+        <button class="bg-white text-red-500 px-4 py-2  hover:bg-red-100">Shop Now</button>     
+
+      </div>  
+    </div>
+    
+  </body>
 </html>
