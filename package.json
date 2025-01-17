@@ -1,0 +1,19 @@
+{
+  "name": "valentines",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "build": "tailwindcss build -i src/styles.css -o dist/styles.css",
+    "watch": "tailwindcss build -i src/styles.css -o dist/styles.css --watch"
+  }
+}

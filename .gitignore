@@ -1,0 +1,22 @@
+# Node modules (dependencies)
+node_modules/
+
+# Build output (compiled CSS)
+dist/
+
+# npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Tailwind CSS cache
+.tailwindcss/
