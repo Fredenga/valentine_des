@@ -6,3 +6,11 @@
   height: 100vh;
   width: 100vw;
 }
+.bg-image1 {
+  background-image: url("/assets/Rectangle\ 7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100vw;
+}
