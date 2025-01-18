@@ -14,3 +14,9 @@
   height: 60vh;
   width: 100vw;
 }
+.form-font {
+  font-family: "Roboto", sans-serif;
+}
+.nav-font {
+  font-family: "Inter", sans-serif;
+}
